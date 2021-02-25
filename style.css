@@ -4,7 +4,9 @@ body {
 h1 {
     color:#d3d3d3;
 }
-
+h2 {
+    color: chartreuse;
+}
 p {
     color:white;
 }
