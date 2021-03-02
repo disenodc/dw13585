@@ -1,23 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+
 body {
-    background-color: black;
+    font-family: 'Roboto', sans-serif;
 }
 h1 {
-    color:#d3d3d3;
+    color:chartreuse;
+    font-weight: 800;
 }
 h2 {
-    color: chartreuse;
+    color: rgb(231, 232, 230);
+    text-align: right;
 }
 p {
-    color:white;
+    color:rgb(92, 92, 92); 
 }
-img {
-    width: 20%;
-    height: auto;
-    margin: 5%;
+#link {
+    color: #d3d3d3;
+}
+#link:hover {
+    color: rgb(234, 255, 0);
 }
 
+.link {
+    color: rgb(0, 255, 51);
+}
+header {
+    background-color: black;
+    height: 120px;
+    padding: 5px;
+}
 section {
     width: 100%;
-    height: 300px;
-    background-color: chartreuse;
+    height: auto;
+    background-color: background-color #20bf55;
+    background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+    padding: 3%;
 }
+
+
+.logo {
+    width: 7%;
+    height: auto;
+    margin: 15px;
+}
+@media (max-width: 720px) {
+    .logo {width: 15%;}
+}
+.desafio {
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    margin: 5px;
+}
+
